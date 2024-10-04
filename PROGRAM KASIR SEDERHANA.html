@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Uang Kembalian Telur</title>
+</head>
+<body>
+    <h2>Hitung Uang Kembalian Pembelian Telur</h2>
+
+    <!-- Input jumlah telur dan uang yang dibayarkan -->
+    <label for="jumlahTelur">Jumlah Telur (kg):</label>
+    <input type="number" id="jumlahTelur" step="0.1" placeholder="Masukkan jumlah telur (kg)"><br><br>
+
+    <label for="uangDibayar">Uang yang Dibayarkan (Rp):</label>
+    <input type="number" id="uangDibayar" placeholder="Masukkan jumlah uang dibayarkan"><br><br>
+
+    <!-- Tombol untuk menghitung -->
+    <button onclick="hitungKembalian()">Hitung</button>
+
+    <!-- Hasil perhitungan -->
+    <p id="totalBayar"></p>
+    <p id="uangKembalian"></p>
+
+    <!-- Memanggil file JavaScript eksternal -->
+    <script src="Untitled-5.js"></script>
+</body>
+</html>
